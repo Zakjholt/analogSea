@@ -8,13 +8,14 @@ body {
 	margin-right: auto;
 	text-align: center;
 	margin-top: 10%;
+	font-family: 'Roboto', sans-serif;
 }
 
 .icon {
 	height: 35px;
 }
 
-form {
+.sign-up-form {
 	padding-left: 40px;
 	padding-right: 40px;
 	width: 400px;
@@ -25,14 +26,57 @@ form {
 	border-radius: 5%
 }
 
+h1 {
+	font-size: 2em;
+	padding-top: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	text-align: left;
+}
+
 input {
+	margin-top: 20px;
+	margin-bottom: 20px;
 	border: 2px solid #ececec;
 	background: #fcfcfc;
 	padding: 15px;
 	width: 320px;
+	height: 55px;
 }
 
-label {
-	text-align: left;
+button {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding: 15px;
+	background: #65c470;
+	border: 2px solid #60c065;
+	border-radius: 5%;
+	width: 320px;
+	height: 55px;
+	color: #ffffff;
+	font-size: 1.3em;
+}
+
+button:hover {
+	background: #5b6;
+}
+
+.forgot, .forgot a {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	color: #b5b5b5;
+	font-size: .9em;
+
+}
+
+.log-in, .log-in a {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 10px;
 }
 
